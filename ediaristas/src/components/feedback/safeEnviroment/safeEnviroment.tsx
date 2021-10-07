@@ -6,7 +6,10 @@ const SafeEnviroment = () => {
     return (
         <SafeEnviromentStyle>
             <Container>
-                <h2>IsaacDSC</h2>
+                <nav>
+                    <h2>IsaacDSC</h2>
+                    <p>teste</p>
+                </nav>
             </Container>
         </SafeEnviromentStyle>
     )

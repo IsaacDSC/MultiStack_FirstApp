@@ -1,14 +1,14 @@
 import React from 'react'
 
 interface BannerProps {
-    tite: string;
+    title: string;
     subtitle?: string;
 }
 
-const Banner = async (components: BannerProps) => {
+const Banner: React.FC<BannerProps> = (components: BannerProps) => {
     return (
-        <h2>{components.tite}</h2>
-        <h5>{components.subtitle}</h5>
+        <h2>{components.title}{components.subtitle}</h2>
+
     )
 }
 
