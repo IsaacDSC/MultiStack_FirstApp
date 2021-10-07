@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import SafeEnviroment from '../components/feedback/safeEnviroment/safeEnviroment'
+import Banner from '../components/banner/home/banner'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,10 @@ const Home: NextPage = () => {
       <h1>Pagina Inicial</h1>
       <hr />
       <SafeEnviroment />
+      <Banner
+        title={'Conheça os Profissionais'}
+        subtitle={'Preecha seu endereço e veja todos os profissionais da sua região'}
+      />
     </div>
   )
 }
