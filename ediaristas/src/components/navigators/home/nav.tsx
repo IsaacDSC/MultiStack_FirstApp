@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavigatorHome, UlLiNavigator } from './nav.style'
+import { NavigatorHome } from './nav.style'
 import {
     Collapse,
     Navbar,
@@ -15,7 +15,6 @@ import {
     NavbarText
 } from 'reactstrap';
 
-const testArray = []
 
 
 const NavHome = (props: any) => {

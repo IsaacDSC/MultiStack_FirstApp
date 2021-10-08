@@ -6,6 +6,7 @@ import SafeEnviroment from '../components/feedback/safeEnviroment/safeEnviroment
 import Banner from '../components/banner/home/banner'
 import NavHome from '../components/navigators/home/nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import FooterApp from '../components/footer/footer'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <NavHome />
       <SafeEnviroment />
       <Banner title={'titulo'} subtitle={'subtitle'} />
+      <FooterApp />
     </div>
   )
 }
